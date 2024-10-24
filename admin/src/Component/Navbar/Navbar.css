@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo{
+    width: 350px;
+}
+.navbar .logo h1{
+    background: linear-gradient(to right, #ff6347, #ff8566, #ff9880);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar .logo p{
+    color: grey;
+    font-size: 0.8rem;
+}
+.navbar .profile {
+    width: 40px;
+}
