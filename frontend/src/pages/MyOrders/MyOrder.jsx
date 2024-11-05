@@ -13,6 +13,10 @@ const MyOrder = () => {
         setData(response.data.data);
         console.log(response.data.data); 
     }
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     useEffect(()=>{
         if (token) {
             fetchOrders();

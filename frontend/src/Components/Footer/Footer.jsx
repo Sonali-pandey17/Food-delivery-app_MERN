@@ -22,12 +22,10 @@ const Footer = () => {
         </div>
         <div className="footer-content-center">
             <h2>COMPANY</h2>
-            <ul>
-                <Link to='/' className="footer-home-link">Home</Link>
-                <li>About Us</li>
-                <li>Delivery</li>
-                <Link to='/privavy-policy'>Privacy policy</Link>
-            </ul>
+            <Link to='/' className="footer-link">Home</Link>
+            <Link to='/aboutus' className="footer-link">About Us</Link>
+            <Link to='/myorders' className="footer-link">Delivery</Link>
+            <Link to='/privacy-policy' className="footer-link">Privacy policy</Link>
         </div>
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>

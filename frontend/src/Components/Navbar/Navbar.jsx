@@ -16,7 +16,6 @@ const Navbar = ({setShowLogin}) => {
     }
   return (
     <div className='navbar'>
-        {/* <img src={assets.logo} alt='' className='logo'/> */}
         <Link to='/'><div className='logo'>
           <h1>ThelaBites</h1>
           <p>Street Flavors to Your Doorstep!</p>
@@ -26,7 +25,7 @@ const Navbar = ({setShowLogin}) => {
             <Link to='menu' onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>Menu</Link>
             <Link to='services' onClick={()=>setMenu("services")} className={menu==="services"?"active":""}>Services</Link>
             <a href='#app-download' onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>Mobile-app</a>
-            <li onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>Contact Us</li>
+            <Link to='contactus' onClick={()=>setMenu("contactus")} className={menu==="contactus"?"active":""}>Contact Us</Link>
         </ul>
         <div className="navbar-right">
                 <img src={assets.search_icon} alt=''/>

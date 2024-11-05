@@ -11,6 +11,8 @@ import PrivacyPolicy from './pages/Privacy-policy/PrivacyPolicy'
 import LoginPopup from './Components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrder from './pages/MyOrders/MyOrder'
+import ContactUs from './pages/ContactUs/ContactUs'
+import AboutUs from './pages/AboutUs/AboutUs'
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -24,11 +26,13 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/menu' element={<Menu/>}/>
         <Route path='/services' element={<Service/>}/>
-        <Route path='/privavy-policy' element={<PrivacyPolicy/>}/>
+        <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
         <Route path='/verify' element={<Verify/>}/>
         <Route path='/myorders' element={<MyOrder/>}/>
+        <Route path='/contactus' element={<ContactUs/>}/>
+        <Route path='/aboutus' element={<AboutUs/>}/>
       </Routes>
     </div>
     <Footer/>

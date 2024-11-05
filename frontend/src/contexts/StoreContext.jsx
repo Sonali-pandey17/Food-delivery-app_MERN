@@ -1,5 +1,4 @@
 import { createContext, useEffect, useState } from "react";
-// import { food_list } from "../assets/assets";
 import Swal from "sweetalert2";
 import axios from 'axios';
 

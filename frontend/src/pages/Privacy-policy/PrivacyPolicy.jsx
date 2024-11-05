@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import './PrivacyPolicy.css'; // Import CSS file
-import privacyImage from '../../assets/servicesImg.png'; // Example image path
+import './PrivacyPolicy.css';
+import privacyImage from '../../assets/servicesImg.png';
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -9,7 +9,6 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="privacy-page">
-      {/* Hero Section */}
       <section className="hero-section">
         <img src={privacyImage} alt="Privacy Policy" className="hero-image" />
         <div className="hero-overlay">
@@ -17,7 +16,6 @@ const PrivacyPolicy = () => {
         </div>
       </section>
 
-      {/* Content Sections */}
       <div className="privacy-container">
         <section className="privacy-section">
           <h2 className="section-title">Introduction</h2>
